@@ -1,7 +1,7 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
-* Студент: [Светлана Смирнова](https://up.htmlacademy.ru/javascript/21/user/1464741).
-* Наставник: `Неизвестно`.
+- Студент: [Светлана Смирнова](https://up.htmlacademy.ru/javascript/21/user/1464741).
+- Наставник: [Евгений Алипкин] (https://htmlacademy.ru/profile/ealipkin).
 
 ---
 
