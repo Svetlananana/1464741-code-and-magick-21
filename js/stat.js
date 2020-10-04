@@ -1,4 +1,6 @@
 // eslint-disable-next-line strict
+'use strict';
+
 const CLOUD_WIDTH = 420;
 const CLOUD_HEIGHT = 270;
 const CLOUD_X = 100;
