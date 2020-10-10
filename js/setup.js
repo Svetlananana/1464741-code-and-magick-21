@@ -11,7 +11,7 @@ document.querySelector(`.setup-similar`).classList.remove(`hidden`);
 const similarListElement = document.querySelector(`.setup-similar-list`);
 const similarWizardTemplate = document.querySelector(`#similar-wizard-template`).content.querySelector(`.setup-similar-item`);
 
-//const wizardTotal = 4;
+// const wizardTotal = 4;
 
 
 const getRandomNumber = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
@@ -20,7 +20,7 @@ const getRandomNumber = (min, max) => min + Math.floor(Math.random() * (max - mi
   const wizardRandom = wizards + i;
   }; */
 
-  // вот массив. его нужно перенести в функцию формирования массива, что бы он создавался автоматически? или просто из массива сделать функцию в функцию?
+// вот массив. его нужно перенести в функцию формирования массива, что бы он создавался автоматически? или просто из массива сделать функцию в функцию?
 
 const wizards = [
   {
