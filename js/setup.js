@@ -11,11 +11,11 @@ document.querySelector(`.setup-similar`).classList.remove(`hidden`);
 const similarListElement = document.querySelector(`.setup-similar-list`);
 const similarWizardTemplate = document.querySelector(`#similar-wizard-template`).content.querySelector(`.setup-similar-item`);
 
-const wizardTotal = 4;
+const WIZARDS_TOTAL = 4;
 
 const getRandomNumber = (min, max) => min + Math.floor(Math.random() * (max - min - 1));
 
-const renderSimilarWizards = function () {
+const renderSimilarWizard = function () {
   return {
     name: WIZARD_NAMES[getRandomNumber(0, WIZARD_NAMES.length)] + WIZARD_SURNAMES[getRandomNumber(0, WIZARD_SURNAMES.length)],
     coatColor: WIZARD_COLOR_COAT[getRandomNumber(0, WIZARD_COLOR_COAT.length)],
@@ -25,8 +25,8 @@ const renderSimilarWizards = function () {
 
 const wizards = [];
 
-for (let i = 0; i < wizardTotal; i++) {
-  wizards[i] = renderSimilarWizards();
+for (let i = 0; i < WIZARDS_TOTAL; i++) {
+  wizards[i] = renderSimilarWizard();
 }
 
 for (let i = 0; i < wizards.length; i++) {
